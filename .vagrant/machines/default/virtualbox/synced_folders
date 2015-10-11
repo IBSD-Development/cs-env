@@ -1,0 +1,1 @@
+{"virtualbox":{"/campusSportswear":{"owner":"vagrant","group":"vagrant","mount_options":["dmode=775,fmode=775"],"guestpath":"/campusSportswear","hostpath":"/Users/rohanpoddar/Workstation/campusSportswear","disabled":false},"/vagrant":{"guestpath":"/vagrant","hostpath":"/Users/rohanpoddar/Workstation/campusSportswear/cs-env","disabled":false}}}
