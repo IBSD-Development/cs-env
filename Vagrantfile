@@ -3,7 +3,7 @@
 
 Vagrant.configure("2") do |config|
   config.vm.box = "campusSportswear"
-  config.vm.box_url = "centos65-x86_64-20140116.box"
+  config.vm.box_url = "campusSportswear.box"
 
   config.vm.network :private_network, ip: "192.168.33.10"
   # config.vm.network :public_network
