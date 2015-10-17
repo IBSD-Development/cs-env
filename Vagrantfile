@@ -13,5 +13,5 @@ Vagrant.configure("2") do |config|
      v.customize ["modifyvm", :id, "--memory", 3092, "--cpus", 2, "--name", "CampusSportswear"]
   end
 
-  config.vm.synced_folder "..", "/campusSportswear", :owner => "vagrant", :group => "vagrant", :mount_options => ["dmode=775,fmode=775"]
+  config.vm.synced_folder "..", "/campusSportswear", :owner => "apache", :group => "apache", :mount_options => ["dmode=777,fmode=777"]
 end
